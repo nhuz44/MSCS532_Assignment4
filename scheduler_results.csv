@@ -1,0 +1,3 @@
+policy,tasks,makespan,average_wait,max_wait,deadline_misses,deadline_count
+priority,8,16,4.625,11,2,8
+fifo,8,16,4.875,8,2,8

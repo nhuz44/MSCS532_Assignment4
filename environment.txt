@@ -1,0 +1,7 @@
+Platform: macOS-27.0.1-arm64-arm-64bit-Mach-O
+Python: 3.14.7
+Processor: arm64
+Timing: perf_counter_ns; median of 7 trials in milliseconds
+Sizes: (500, 2000, 6000); copied input before timing; no third-party sort functions
+Distribution seeds fixed per n; randomized-pivot seed differs per trial
+All benchmark algorithms are Python implementations, not built-in sorted().

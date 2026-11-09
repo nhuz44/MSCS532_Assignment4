@@ -1,0 +1,17 @@
+policy,task_id,priority,arrival_time,start_time,end_time,waiting_time,deadline,deadline_met
+priority,urgent-health-102,9,0,0,2,0,4,True
+priority,network-103,6,1,2,5,1,10,True
+priority,alert-review-105,8,3,5,6,2,6,True
+priority,host-check-107,7,6,6,8,0,11,True
+priority,firmware-104,5,2,8,11,6,11,True
+priority,precheck-101,4,0,11,13,11,7,False
+priority,log-archive-106,2,4,13,15,9,14,False
+priority,report-108,1,7,15,16,8,16,True
+fifo,precheck-101,4,0,0,2,0,7,True
+fifo,urgent-health-102,9,0,2,4,2,4,True
+fifo,network-103,6,1,4,7,3,10,True
+fifo,firmware-104,5,2,7,10,5,11,True
+fifo,alert-review-105,8,3,10,11,7,6,False
+fifo,log-archive-106,2,4,11,13,7,14,True
+fifo,host-check-107,7,6,13,15,7,11,False
+fifo,report-108,1,7,15,16,8,16,True
